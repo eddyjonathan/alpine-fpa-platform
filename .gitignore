@@ -1,0 +1,12 @@
+# Python virtual environment (each person creates their own)
+.venv/
+
+# dbt generated files: rebuilt on every run, never committed
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
